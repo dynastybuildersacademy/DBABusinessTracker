@@ -41,7 +41,7 @@ workflows:
         track: internal
       app_store_connect:
         api_key:
-          key_id:$APP_STORE_CONNECT_KEY_ID
+          key_id: $APP_STORE_CONNECT_KEY_ID
           issuer_id: "293c8e02-f7e3-4659-9ca1-7176640b2c86"
           private_key: "MIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQg/phxRX/KJlxEh8AKMtKuaVaFfNw7bSY1BaZGspSvQNmgCgYIKoZIzj0DAQehRANCAAQQg+n1RMD2JN+rEtn3eQYR0cKf4J1Ik8UFSf5tQ3iIiLdLMpHzhoTh77a9nB+TbmCDfOUg6qHnD8bvW9e+ZE"
         submit_to_testflight: true
