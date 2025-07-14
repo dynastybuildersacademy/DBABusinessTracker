@@ -18,6 +18,8 @@ workflows:
         bundle_identifier: "com.dynastybuildersacademy.calltrackerplus"
 
     scripts:
+	- name: Print Apple ID env var
+    	script: echo $APP_STORE_APPLE_ID
       - name: Install dependencies
         script: flutter pub get
 
