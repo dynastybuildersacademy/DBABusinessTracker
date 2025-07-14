@@ -13,9 +13,10 @@ workflows:
         - app_store_credentials
       android_signing:
         - google_play
-	ios_signing:
-  	distribution_type: app_store    
-scripts:
+      ios_signing:
+        distribution_type: app_store
+
+    scripts:
       - name: Install dependencies
         script: flutter pub get
 
