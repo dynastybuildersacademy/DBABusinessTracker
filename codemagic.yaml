@@ -43,6 +43,6 @@ workflows:
         credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
         track: internal
       app_store_connect:
-        apple_id: $APP_STORE_APPLE_ID
-        app_specific_password: $APP_STORE_APP_PASSWORD
+        apple_id: obib0y@gmail.com
+	app_specific_password: ekwc-evbn-mswt-rgws
         submit_to_testflight: true
