@@ -40,5 +40,5 @@ workflows:
         track: internal
       app_store_connect:
         apple_id: $APP_STORE_APPLE_ID
-        app_specific_password: $APP_STORE_APP_PASSWORD2
+        app_specific_password: $APP_STORE_APP_PASSWORD
         submit_to_testflight: true
