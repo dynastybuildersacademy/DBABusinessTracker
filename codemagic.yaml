@@ -13,9 +13,9 @@ workflows:
         - app_store_credentials
       android_signing:
         - google_play
-      ios_signing:
-        - app_store
-    scripts:
+	ios_signing:
+  	distribution_type: app_store    
+scripts:
       - name: Install dependencies
         script: flutter pub get
 
@@ -36,7 +36,7 @@ workflows:
       google_play:
         credentials: $GCLOUD_SERVICE_ACCOUNT_CREDENTIALS
         track: internal
-      app_store:
+      app_store_connect:
         apple_id: $APP_STORE_APPLE_ID
         app_specific_password: $APP_STORE_APP_PASSWORD
         submit_to_testflight: true
