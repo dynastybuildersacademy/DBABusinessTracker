@@ -7,8 +7,8 @@ workflows:
       flutter: stable
       xcode: latest
       vars:
-        APP_ID: "com.yourcompany.calltrackerplus"
-        BUNDLE_ID: "com.yourcompany.calltrackerplus"
+        APP_ID: "com.dynastybuildersacademy.calltrackerplus"
+        BUNDLE_ID: "com.dynastybuildersacademy.calltrackerplus"
       groups:
         - google_credentials
         - app_store_credentials
@@ -16,7 +16,7 @@ workflows:
         - google_play
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: "com.yourcompany.calltrackerplus"
+        bundle_identifier: "com.dynastybuildersacademy.calltrackerplus"
 
     scripts:
       - name: Install dependencies
