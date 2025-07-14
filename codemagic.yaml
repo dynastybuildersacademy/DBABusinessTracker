@@ -1,4 +1,4 @@
-\workflows:
+workflows:
   build_and_release:
     name: Build Call Tracker+ App
     max_build_duration: 60
