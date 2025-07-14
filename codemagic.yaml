@@ -1,5 +1,4 @@
-
-workflows:
+\workflows:
   build_and_release:
     name: Build Call Tracker+ App
     max_build_duration: 60
@@ -11,7 +10,6 @@ workflows:
         BUNDLE_ID: "com.dynastybuildersacademy.calltrackerplus"
       groups:
         - google_credentials
-        - app_store_credentials
       android_signing:
         - google_play
       ios_signing:
