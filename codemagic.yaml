@@ -44,5 +44,5 @@ workflows:
         track: internal
       app_store_connect:
         apple_id: obib0y@gmail.com
-	app_specific_password: ekwc-evbn-mswt-rgws
+      app_specific_password: ekwc-evbn-mswt-rgws
         submit_to_testflight: true
